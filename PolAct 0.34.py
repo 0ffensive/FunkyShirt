@@ -13,15 +13,20 @@ rq = [0x01, 0x0, 0x02, 0x03, 0x05, 0x3c] #Массив корисних елем
 #main DEF for INPUTS | GUI for PolAct | Need Access for Selenium
 def INPUTS(): #main DEF
     kq = rq
-    a = (A.get()) #Nazwisko(a)  
-    b = (B.get()) #Nazwisko(a) rodowe (poprzednio używane nazwisko(a))  
-    c = (C.get()) #Imiona
-    d = (D.get()) #Data urodzenia (RRRR-MM-DD) 
-    e = (E.get()) #Miejsce urodzenia
-    f = (F.get()) #Państwo urodzenia
-    g = (G.get()) #Państwo urodzenia 
+    a = (A.get())  
+    b = (B.get()) 
+    c = (C.get()) 
+    d = (D.get()) 
+    e = (E.get()) 
+    f = (F.get()) 
+    g = (G.get()) 
+    h = (H.get()) 
+    i = (I.get())
+    j = (J.get())
+    k = (K.get())
+    l = (L.get())
 
-    if a or b or c or d or e == "":
+    if a == "" or b == ""  or c=="" or d=="" or e == "" or f=="" or g=="" or h=="" or i=="" or j=="" or k=="" or l=="":
         messagebox.showinfo("Error", "Labels should be not empty")
     else:
         messagebox.showinfo("Success!", "Waiting for a results!")
