@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Popup vs Content",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js",
+                "libraries/p5.js",
+                "libraries/p5.dom.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "deafult_icon": "none.png",
+        "default_popup": "popup.html",
+        "default_title": "It a popup kind man!"
+    },
+    "description": "Drawing"
+}
