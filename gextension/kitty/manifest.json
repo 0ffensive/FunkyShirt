@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Kitty Annushka",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "cat-paw.png",
+        "default_title": "Press Me Now, There is no time to explain!"
+    },
+    "web_accessible_resources": [
+        "images/*"
+    ],
+    "description": "Replace img HTML elements with random of photos of kitty Annushka. Enjoy!"
+}
