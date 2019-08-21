@@ -1,4 +1,3 @@
-console.log("It is content script");
 chrome.runtime.onMessage.addListener(gotMessage)
 
 function getRandomInt(min, max) {
@@ -10,16 +9,13 @@ function getRandomInt(min, max) {
 function modifyColorOfLinks() {
     let elements = document.getElementsByTagName('img');
     for (el of elements) {
-        console.log(el);
         let url = chrome.runtime.getURL('images/kitty-annushka-' + getRandomInt(1,7) + '.jpg'); 
         el.src = url;
-        console.log(url);
     }
 }
 
 function gotMessage(msg, sender, sendResponse)
 {
-    console.log(msg);
     if(msg.text === "Hello")
     {
         console.log("Replacing");
