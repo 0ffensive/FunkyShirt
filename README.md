@@ -1,16 +1,18 @@
 # FunkyShirt
-automatic web site content filling tool
 
-## System Setup
+Google chrome extension which replaces images on web page by photos of Kitty Annushka :cat:
+don't forget to follow here instagram [@kitty_annnushka](https://www.instagram.com/kitty_annushka/) and adore, coz she deservs it!
 
-1. Python > 3.
-2. [Selenium](https://selenium-python.readthedocs.io/index.html) (pip install selenium)
-3. Webdirver: [Chromedriver](http://chromedriver.chromium.org/downloads) should be in environmentla path. And pay attention for version of Chromedriver, it should correspond to your installed Chrome version.
-4. Tesseract (pip install pytesseract)
-5. PIL(Python Imaging Library)
+## Installation and use
+Google how to install custom google chrome extesnion.. when you done with it..
 
-## Chanlenges
+..press __paw__ icon: <img src="./gextension/kitty/cat-paw.png" width="20" height="20" />
 
-How to overcome КАПТЧА?
+## Some Examples
+[!example 1](./gextension/ex1.png)
+[!example 2](./gextension/ex2.png)
+[!example 3](./gextension/ex3.png)
+
+
 ## Oh my god that's some..
 [![Watch the video](https://i1.sndcdn.com/artworks-000105030213-chcquf-t500x500.jpg)](https://www.youtube.com/watch?v=QxBC7ol-iUs)
